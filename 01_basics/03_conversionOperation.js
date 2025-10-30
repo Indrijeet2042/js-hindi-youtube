@@ -48,3 +48,22 @@ let someNumber = 22
 
 let stringNumber = String(someNumber) //22
 console.log(typeof stringNumber); //string
+
+
+//************************Operations ****************************
+
+let value = 3
+let negValue = -value
+
+console.log(negValue); //-3
+
+let str1 = "hello"
+let str2 = " Indrijeet"
+let str3 = str1 + str2
+console.log(str3); // hello Indrijeet
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 3); //122
+console.log(1 + 2 + "2"); //32
+
